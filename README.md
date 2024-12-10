@@ -41,7 +41,7 @@
 
 
 ---
-## 🚀 **Instructions**
+## 🎓 **Instructions**
 
 1. **Start Application:**
    - For windows, simply download and run `Weighted Voronoi Stippling.exe` executable
