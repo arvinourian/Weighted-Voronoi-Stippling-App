@@ -2,6 +2,9 @@
 
 **Weighted Voronoi Stippling** application with custom `customtkinter` GUI allows users to select an image, set stippling parameters, generate weighted Voronoi stippling diagrams, and save GIF of centroid evolution
 
+![image](https://github.com/user-attachments/assets/37d94313-6b9b-4be9-a436-471ca79a22a2)
+
+
 ---
 
 ## 🌟 **Features**
