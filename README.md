@@ -4,9 +4,35 @@
 
 ---
 
-## 🚀 **Parameter Controls**
+## 🌟 **Features**
 
 - **File Selection**:
+  - Supports different dimmensions
+  - Supports different image types (Gray, Color etc)
+  - file types (`.png`, `.jpg`, `.jpeg`, `.bmp`, `.tif`, `.tiff`).
+- **Plot Outputs**:
+  - Produce weighted Voronoi diagram based on input image and paramerters
+  - Produce stipple image based on the weighted Voronoi and input paramerters
+- **Evolution GIF**:
+  - Saves every iteration of image generation as a seemless GIF file showcasing centroid evolution
+- **Quantization Levels**:
+  - Can reduce the number of gray value outputs that are being used during computiation
+- **Two Voronoi Region Centroid Computation Methods**:
+  - Random sampling (Recommended):
+    - Uses random sample of  `(max_x - min_x) * (max_y - min_y) * 10` size to find contained pixels, and uses those to compute gray value density centroid
+    - Relativly faster Iterations
+    - Introduces jitter, which is able to dislodge points that were previously stuck in an un-optimal space
+  - Original Lloyd's Method:
+    - Uses all pixels within region to compute gray value density centroid
+    - Need fewer iterations to get to final Voronoi points
+    - Final Voronoi points may be unevenly concentrated and result in some areas containing dense clusters of stuck points
+
+
+---
+
+## 🚀 **Parameter Controls**
+
+- **Select Image**:
   - Choose an image file (`.png`, `.jpg`, `.jpeg`, `.bmp`, `.tif`, `.tiff`).
 - **Stipple Points**:
   - Set the number of points for stippling (100 to 50,000).
