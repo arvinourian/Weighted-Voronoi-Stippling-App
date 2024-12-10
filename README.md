@@ -26,6 +26,8 @@
     - Uses all pixels within region to compute gray value density centroid
     - Need fewer iterations to get to final Voronoi points
     - Final Voronoi points may be unevenly concentrated and result in some areas containing dense clusters of stuck points
+- **Continuous Progression Report**:
+  - Console logs updates after completion on each iteration and major code segment
 
 
 ---
