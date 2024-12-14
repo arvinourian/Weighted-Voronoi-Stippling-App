@@ -16,10 +16,10 @@
   - Supports different dimmensions
   - Supports different image types (Gray, Color etc)
   - file types:
-    - `.png`
     - `.jpg`
     - `.jpeg`
     - `.bmp`
+      
 - **Plot Outputs**:
   - Produce weighted Voronoi diagram based on input image and paramerters
   - Produce stipple image based on the weighted Voronoi and input paramerters
